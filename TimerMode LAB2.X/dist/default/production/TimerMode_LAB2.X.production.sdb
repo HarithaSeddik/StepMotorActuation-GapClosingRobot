@@ -1,0 +1,114 @@
+[p LITE_MODE AUTOSTATIC PIC14 PICREGULAR PICMID ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F877A ]
+[d frameptr 6 ]
+"6 C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\awdiv.c
+[v ___awdiv __awdiv `(i  1 e 2 0 ]
+"62 C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\float.c
+[v ___ftpack __ftpack `(f  1 e 3 0 ]
+"86 C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 3 0 ]
+"56 C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 3 0 ]
+"44 C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\fttol.c
+[v ___fttol __fttol `(l  1 e 4 0 ]
+"28 C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\lwtoft.c
+[v ___lwtoft __lwtoft `(f  1 e 3 0 ]
+"6 C:\Program Files (x86)\Microchip\xc8\v1.34\sources\pic\eeprom.c
+[v _eecpymem eecpymem `(v  1 e 0 0 ]
+"24
+[v _memcpyee memcpyee `(v  1 e 0 0 ]
+"12 E:\DeepBlue\YouTube Channel\Embedded Systems\Microchip PIC [Arabic]\19- Timer Module - Timer Mode LAB2\Code\TimerMode LAB2.X\main.c
+[v _main main `(v  1 e 0 0 ]
+"48
+[v _calc_dist calc_dist `(uc  1 e 1 0 ]
+"209 C:\Program Files (x86)\Microchip\xc8\v1.34\include\pic16f877a.h
+[v _PORTB PORTB `VEuc  1 e 1 @6 ]
+"619
+[v _TMR1 TMR1 `VEus  1 e 2 @14 ]
+"1337
+[v _TRISB TRISB `VEuc  1 e 1 @134 ]
+"2537
+[v _RC2 RC2 `VEb  1 e 0 @58 ]
+"2539
+[v _RC3 RC3 `VEb  1 e 0 @59 ]
+"2635
+[v _T1CKPS0 T1CKPS0 `VEb  1 e 0 @132 ]
+"2637
+[v _T1CKPS1 T1CKPS1 `VEb  1 e 0 @133 ]
+"2653
+[v _TMR1CS TMR1CS `VEb  1 e 0 @129 ]
+"2659
+[v _TMR1ON TMR1ON `VEb  1 e 0 @128 ]
+"2707
+[v _TRISC2 TRISC2 `VEb  1 e 0 @1082 ]
+"2709
+[v _TRISC3 TRISC3 `VEb  1 e 0 @1083 ]
+"12 E:\DeepBlue\YouTube Channel\Embedded Systems\Microchip PIC [Arabic]\19- Timer Module - Timer Mode LAB2\Code\TimerMode LAB2.X\main.c
+[v _main main `(v  1 e 0 0 ]
+{
+"14
+[v main@dist dist `uc  1 a 1 42 ]
+"46
+} 0
+"48
+[v _calc_dist calc_dist `(uc  1 e 1 0 ]
+{
+"50
+[v calc_dist@distance distance `uc  1 a 1 13 ]
+"64
+} 0
+"28 C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\lwtoft.c
+[v ___lwtoft __lwtoft `(f  1 e 3 0 ]
+{
+[v ___lwtoft@c c `ui  1 p 2 8 ]
+"31
+} 0
+"44 C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\fttol.c
+[v ___fttol __fttol `(l  1 e 4 0 ]
+{
+"47
+[v ___fttol@lval lval `ul  1 a 4 25 ]
+"46
+[v ___fttol@exp1 exp1 `uc  1 a 1 29 ]
+[v ___fttol@sign1 sign1 `uc  1 a 1 24 ]
+"44
+[v ___fttol@f1 f1 `f  1 p 3 16 ]
+"73
+} 0
+"56 C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 3 0 ]
+{
+"60
+[v ___ftdiv@f3 f3 `f  1 a 3 11 ]
+"59
+[v ___ftdiv@sign sign `uc  1 a 1 15 ]
+[v ___ftdiv@exp exp `uc  1 a 1 14 ]
+[v ___ftdiv@cntr cntr `uc  1 a 1 10 ]
+"56
+[v ___ftdiv@f2 f2 `f  1 p 3 0 ]
+[v ___ftdiv@f1 f1 `f  1 p 3 3 ]
+"86
+} 0
+"62 C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\float.c
+[v ___ftpack __ftpack `(f  1 e 3 0 ]
+{
+[v ___ftpack@arg arg `um  1 p 3 0 ]
+[v ___ftpack@exp exp `uc  1 p 1 3 ]
+[v ___ftpack@sign sign `uc  1 p 1 4 ]
+"86
+} 0
+"6 C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\awdiv.c
+[v ___awdiv __awdiv `(i  1 e 2 0 ]
+{
+"11
+[v ___awdiv@quotient quotient `i  1 a 2 37 ]
+"12
+[v ___awdiv@sign sign `uc  1 a 1 36 ]
+[v ___awdiv@counter counter `uc  1 a 1 35 ]
+"6
+[v ___awdiv@divisor divisor `i  1 p 2 30 ]
+[v ___awdiv@dividend dividend `i  1 p 2 32 ]
+"42
+} 0
